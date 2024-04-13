@@ -1,0 +1,109 @@
+* {
+  margin: o;
+  padding: o;
+  box-sizing: border-box;
+}
+
+.body {
+  padding: 42px;
+}
+
+.navbar {
+  justify-content: space-between;
+  display: flex;
+}
+
+.sidebar {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar a {
+  color: black;
+  font-size: 27px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.box {
+  width: 564px;
+  height: 627px;
+  border: 1px solid black;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.login {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  height: 46px;
+  width: 405px;
+  justify-content: space-around;
+}
+
+#google {
+  margin-left: 10px;
+  display: flex;
+  border: 1px solid rgba(128, 128, 128, 0.407);
+  border-radius: 10px;
+  justify-content: space-between;
+}
+
+#facebook {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgba(128, 128, 128, 0.407);
+  border-radius: 10px;
+}
+
+.login p {
+  font-size: 12px;
+}
+
+.image {
+  display: flex;
+}
+
+.img-1 {
+  margin-right: 20px;
+}
+
+.furniture h1 {
+  margin-left: 80px;
+  font-family: Literata;
+  font-size: 102px;
+  font-weight: 400;
+  line-height: 151.47px;
+  text-align: left;
+}
+
+.furniture p {
+  margin-left: 80px;
+  font-family: Literata;
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 62.37px;
+  text-align: left;
+  margin-top: 10px;
+}
+
+#imgfoot {
+  font-family: Literata;
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 40.1px;
+  text-align: center;
+}
