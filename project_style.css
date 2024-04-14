@@ -13,7 +13,13 @@
   display: flex;
 }
 
+.icon {
+  margin-left: 42px;
+}
+
 .sidebar {
+  margin-left: 250px;
+  margin-top: 0;
   width: 400px;
   display: flex;
   justify-content: space-between;
@@ -40,8 +46,23 @@
   justify-content: center;
 }
 
+#or h2 {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: rgba(144, 144, 144, 1);
+}
+
+.info {
+  margin-bottom: 50px;
+}
+
 .login {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
 }
 
@@ -51,38 +72,51 @@
   margin-top: 50px;
   height: 46px;
   width: 405px;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 #google {
   margin-left: 10px;
   display: flex;
+  width: 200px;
   border: 1px solid rgba(128, 128, 128, 0.407);
   border-radius: 10px;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  margin-right: 20px;
+}
+
+#google img {
+  margin-top: 5px;
+}
+
+#facebook img {
+  margin-top: 5px;
 }
 
 #facebook {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   border: 1px solid rgba(128, 128, 128, 0.407);
   border-radius: 10px;
+  width: 200px;
 }
 
 .login p {
   font-size: 12px;
 }
 
-.image {
-  display: flex;
+.b {
+  margin-bottom: 80px;
 }
 
-.img-1 {
-  margin-right: 20px;
+.furniture img {
+  margin-left: 50px;
 }
 
-.furniture h1 {
-  margin-left: 80px;
+.furniture h2 {
+  margin: 0;
+  margin-bottom: 0;
+  margin-left: 140px;
   font-family: Literata;
   font-size: 102px;
   font-weight: 400;
@@ -90,20 +124,309 @@
   text-align: left;
 }
 
-.furniture p {
-  margin-left: 80px;
+.furniture h3 {
+  margin: 0;
+  margin-left: 140px;
   font-family: Literata;
   font-size: 42px;
   font-weight: 400;
   line-height: 62.37px;
   text-align: left;
   margin-top: 10px;
+  color: rgba(0, 117, 255, 0.94);
 }
 
-#imgfoot {
+.imgfoot {
   font-family: Literata;
   font-size: 27px;
   font-weight: 400;
   line-height: 40.1px;
   text-align: center;
+  margin-top: 10px;
+}
+
+.team h1 {
+  font-family: Literata;
+  font-size: 59px;
+  font-weight: 400;
+  line-height: 87.62px;
+  margin: 0;
+  align-items: center;
+}
+
+#t {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.p-1 {
+  display: flex;
+  justify-content: space-around;
+  background: rgba(155, 155, 155, 0.18);
+}
+
+.p-1 img {
+  width: 264px;
+  height: 261.62px;
+  margin-top: 245px;
+  margin-left: 245px;
+  border-radius: 50%;
+  margin: 0;
+}
+
+.p-1 .clm {
+  flex-direction: column;
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.p-2 {
+  display: flex;
+  justify-content: center;
+  background: rgba(155, 155, 155, 0.18);
+}
+
+.p-2 img {
+  width: 264px;
+  height: 261.62px;
+  margin-top: 145px;
+  margin-left: 245px;
+  border-radius: 50%;
+  margin: 0;
+}
+
+.p-2 .clm {
+  flex-direction: column;
+  text-align: right;
+}
+
+.work h1 {
+  font-family: Literata;
+  font-size: 59px;
+  font-weight: 400;
+  line-height: 87.62px;
+  margin: 0;
+  align-items: center;
+}
+
+.h {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#hr {
+  width: 486px;
+  margin-left: 670px;
+}
+
+.sec-1 {
+  display: flex;
+  justify-content: center;
+  margin-right: 100px;
+}
+
+.con-1 {
+  margin-left: 40px;
+  margin-bottom: 60px;
+}
+
+.con-1 h1 {
+  font-family: Literata;
+  font-size: 43px;
+  font-weight: 400;
+  line-height: 63.86px;
+  text-align: right;
+}
+
+.con-1 p {
+  font-family: Literata;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 28.22px;
+  text-align: left;
+}
+
+.sec-2 {
+  display: flex;
+  justify-content: center;
+  margin-left: 100px;
+}
+
+.con-2 {
+  margin-right: 40px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.con-2 h1 {
+  font-family: Literata;
+  font-size: 43px;
+  font-weight: 400;
+  line-height: 63.86px;
+  text-align: right;
+}
+
+.con-2 p {
+  font-family: Literata;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 28.22px;
+  text-align: right;
+}
+
+.project {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  margin-left: 0;
+}
+
+.content h1 {
+  font-family: Literata;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 71.28px;
+  text-align: left;
+  background: rgba(15, 166, 192, 0.75);
+  width: 650px;
+  height: 80px;
+  top: 242px;
+}
+
+.content h3 {
+  font-family: Literata;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 71.28px;
+  text-align: left;
+  margin: 0;
+}
+
+.content h5 {
+  font-family: Literata;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 53.46px;
+  text-align: left;
+  margin: 0;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.detail {
+  display: flex;
+}
+
+.content p {
+  font-family: Literata;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 53.46px;
+  text-align: left;
+}
+
+.conimg {
+  margin-right: 150px;
+}
+
+.conimg-1 img {
+  border-radius: 50%;
+  width: 440px;
+  height: 440px;
+}
+
+.conimg-2 img {
+  border-radius: 50%;
+  width: 440px;
+  height: 440px;
+  z-index: -1;
+  position: relative;
+  bottom: 300px;
+  left: 100px;
+}
+
+.imgfoot p {
+  font-family: Literata;
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 40.1px;
+  margin-top: 10px;
+  margin-left: 540px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background: rgba(75, 189, 208, 1);
+  width: 100%;
+  height: 378px;
+}
+
+.leftfoot {
+  margin: 0;
+  font-family: Literata;
+  color: rgba(255, 255, 255, 1);
+  margin-left: 20px;
+  text-align: left;
+  margin-top: 118px;
+}
+
+.leftfoot h1 {
+  margin: 0;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 74.25px;
+}
+
+.leftfoot h2 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 56.95px;
+}
+
+.leftfoot h3 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 50.63px;
+}
+
+.rightfoot {
+  margin-top: 118px;
+}
+
+.footmid {
+  margin-top: 118px;
+  height: 184;
+  width: 225;
+}
+
+.footmid p {
+  margin: 0;
+  color: rgba(255, 255, 255, 1);
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rightfoot h1 {
+  font-family: Literata;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 56.95px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  margin-right: 10px;
+}
+
+.footlogo {
+  display: flex;
+  gap: 11px;
+  margin-top: 20px;
+  margin-right: 20px;
 }
