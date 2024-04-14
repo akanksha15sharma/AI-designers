@@ -161,15 +161,15 @@
 
 .p-1 {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   background: rgba(155, 155, 155, 0.18);
 }
 
-.p-1 img {
+.p-1 > img {
   width: 264px;
   height: 261.62px;
-  margin-top: 245px;
-  margin-left: 245px;
+  /* margin-top: 245px;
+  margin-left: 245px; */
   border-radius: 50%;
   margin: 0;
 }
@@ -179,7 +179,7 @@
   margin-left: 50px;
   display: flex;
   align-items: center;
-  margin: 0;
+  margin: 20px;
 }
 
 .p-2 {
@@ -188,7 +188,7 @@
   background: rgba(155, 155, 155, 0.18);
 }
 
-.p-2 img {
+.p-2 > img {
   width: 264px;
   height: 261.62px;
   margin-top: 145px;
